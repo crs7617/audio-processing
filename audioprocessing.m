@@ -1,4 +1,4 @@
-% Load an audio signal and 
+% Load an audio signal
 [y, Fs] = audioread('original_audio.wav');  % Replace with your audio file
 [h, Fs_h] = audioread('room_impulse_response.wav');  % Replace with your RIR file
 
