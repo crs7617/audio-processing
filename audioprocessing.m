@@ -1,4 +1,4 @@
-[y, Fs] = audioread('original_audio.wav');  % Replace with your audio file
+[y, Fs] = audioread('original_audio.wav');  % Replace with
 [h, Fs_h] = audioread('room_impulse_response.wav');  % Replace with your RIR file
 
 % Ensure both audio and impulse response are of the same sampling rate
