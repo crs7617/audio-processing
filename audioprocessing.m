@@ -1,5 +1,5 @@
 [y, Fs] = audioread('original_audio.wav');  
-[h, Fs_h] = audioread('room_impulse_response.wav');  % Replace 
+[h, Fs_h] = audioread('room_impulse_response.wav');  
 
 % Ensure both audio and impulse response are of the same sampling rate
 if Fs ~= Fs_h
