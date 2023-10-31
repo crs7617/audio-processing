@@ -42,6 +42,7 @@ plot(time_conv, convolved_audio);
 title('Convolved Audio');
 xlabel('Time (s)');
 subplot(3, 1, 3);
+subplot(2,4,2);
 plot(time, restored_audio);
 title('Restored Audio');
 xlabel('Time (s)');
